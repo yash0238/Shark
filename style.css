@@ -9,36 +9,13 @@ body {
 header {
     background: #1c1c1c;
     color: #f4f4f4;
-    padding: 10px 0;
+    padding: 20px 0;
+    text-align: center;
 }
 
 header .logo {
-    float: left;
-    padding: 10px 20px;
-}
-
-header nav {
-    float: right;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    color: #f4f4f4;
-    text-decoration: none;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 section {
@@ -62,6 +39,12 @@ section {
 
 #home h1 {
     margin: 0 0 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#home p {
+    font-size: 1.2em;
 }
 
 #home .cta-buttons .btn {
@@ -72,6 +55,7 @@ section {
     background: #ff5722;
     border-radius: 25px;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 #home .cta-buttons .btn:hover {
@@ -84,6 +68,8 @@ section {
 
 #features h2 {
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .features-list {
@@ -105,6 +91,11 @@ section {
 #testimonials {
     background-image: url('images/testimonials-bg.jpg');
     text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    font-weight: bold;
 }
 
 #testimonials .testimonial {
