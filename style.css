@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f4f4f4;
+    background-color: #121212;
+}
+
+header {
+    background: #1c1c1c;
+    color: #f4f4f4;
+    padding: 10px 0;
+}
+
+header .logo {
+    float: left;
+    padding: 10px 20px;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    position: relative;
+    padding: 60px 20px;
+    margin: 20px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#home {
+    background-image: url('images/home-bg.jpg');
+    text-align: center;
+}
+
+#home h1 {
+    margin: 0 0 20px;
+}
+
+#home .cta-buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #fff;
+    background: #ff5722;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#home .cta-buttons .btn:hover {
+    background: #e64a19;
+}
+
+#features {
+    background-image: url('images/features-bg.jpg');
+}
+
+#features h2 {
+    text-align: center;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.features-list .feature {
+    flex: 0 0 30%;
+    margin: 10px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#testimonials {
+    background-image: url('images/testimonials-bg.jpg');
+    text-align: center;
+}
+
+#testimonials .testimonial {
+    margin: 10px 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    background: #1c1c1c;
+    color: #f4f4f4;
+}
+
+footer p {
+    margin: 5px 0;
+}
